@@ -28,11 +28,52 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+table, th, td {
+  border: 1px solid;
+}
+
+
+
+td{
+  min-height: 50px;
+  padding: 20px;
+  min-width: 50px;
+}
+tr{
+  min-height: 50px;
+}
+table {
+  overflow: auto;
+  border-collapse: collapse;
+}
+
+.TableContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.text-field{
+  margin-top: 50px;
+}
+
+input{
+  max-width: 50px;
+}
+
+.cell{
+  min-width: 50px;
+  min-height: 20px;
+  padding: 10px;
+}
+
+.cell:hover{
+  border: solid 1px rgb(61, 61, 61);
+}
+
+textarea {
+  min-width: 400px;
+  min-height: 200px;
 }
